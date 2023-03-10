@@ -1,0 +1,6 @@
+.plece__paragraph {
+    margin: 0;
+}
+.plece__paragraph:last-child {
+    padding-top: 26px;
+}
