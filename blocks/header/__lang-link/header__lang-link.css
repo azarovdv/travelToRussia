@@ -6,9 +6,15 @@
     line-height: 28px;
     display: block;
 }
+
 @media (min-width: 320px) and (max-width: 767px) {
     .header__lang-link {
-            font-size: 18px;
-            line-height: 20px;
-        }
+        font-size: 18px;
+        line-height: 20px;
+    }
+}
+
+.header__lang-link:hover {
+    opacity: .8;
+    cursor: pointer;
 }
